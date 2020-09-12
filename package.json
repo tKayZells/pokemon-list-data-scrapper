@@ -1,0 +1,16 @@
+{
+  "name": "pokemon-list-data-scrapper",
+  "version": "1.0.0",
+  "description": "Using pokedex-promise-v2 with PokeApi, this app will generate a json file with the following info national number, name and types for each Pokemon",
+  "main": "src/app.js",
+  "scripts": {
+    "start:app": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "Miguel Vicente Lucena",
+  "license": "ISC",
+  "dependencies": {
+    "pokedex-promise-v2": "^3.2.0"
+  },
+  "devDependencies": {}
+}
