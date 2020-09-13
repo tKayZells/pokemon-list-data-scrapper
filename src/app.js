@@ -29,7 +29,7 @@ async function parse(pokemonData){
             type: response.types.flatMap( i => i.type.name)
         })
         stream.write(poke)
-        if(index != pokemonData.length) stream.write(',')
+        if(index < pokemonData.length - 1) stream.write(',')
         console.log(`${element.name} saved`)
     }
     stream.write("]");
